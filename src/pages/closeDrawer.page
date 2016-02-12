@@ -1,0 +1,36 @@
+<apex:page renderAs="{!if($CurrentPage.parameters.isPdf == null, null, 'pdf')}" controller="CloseDrawerController" readOnly="true" id="myPage">
+<apex:form >
+
+<apex:pageBlock title="Close Drawer">
+<br/>
+
+<b>Dates</b><br/>
+From Open Date :   <apex:inputField label="fromOpenDate"  value="{!fromOpenDate.TransactionDate__c}" id="fromOpenDate"/>
+To Date:    <apex:inputField label="toOpenDate" value="{!toOpenDate.TransactionDate__c}" id="toOpenDate"/><br/><br/>
+
+<apex:commandButton value="List Report" action="{!fetchReports}" rerender="pbTable,pbTable2"/><br/><br/>
+
+<style> .headerRow .headerStyle{background-color:#638658;color:#FFFFFF} </style>
+<apex:pageblocktable value="{!payments_report}" var="a" id="pbTable">
+<apex:column headerValue="Payment Methods" headerClass="headerStyle" value="{!a.Method}" style="{!if(a.Method='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Credit" headerClass="headerStyle" value="{!a.Credit}" style="{!if(a.Method='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Debit" headerClass="headerStyle" value="{!a.Debit}" style="{!if(a.Method='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Net" headerClass="headerStyle" value="{!a.Net}" style="{!if(a.Method='Total','font-weight: bold', 'color:black')}"/>
+</apex:pageblocktable>
+<br/>
+<br/>
+<apex:pageblocktable value="{!sales_report}" var="c" id="pbTable2">
+<apex:column headerValue="Ticket" headerClass="headerStyle" value="{!c.Tickets}" style="{!if(c.Tickets='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Quantity" headerClass="headerStyle" value="{!c.Quantity}" style="{!if(c.Tickets='Total','color:white;font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Returned" headerClass="headerStyle" value="{!c.Returned}" style="{!if(c.Tickets='Total','color:white;font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Net" headerClass="headerStyle" value="{!c.Net}" style="{!if(c.Tickets='Total','color:white;font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="TotalSale" headerClass="headerStyle" value="{!c.TotalSale}" style="{!if(c.Tickets='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Fee" headerClass="headerStyle" value="{!c.Fee}" style="{!if(c.Tickets='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Total" headerClass="headerStyle" value="{!c.Total}" style="{!if(c.Tickets='Total','font-weight: bold', 'color:black')}"/>
+</apex:pageblocktable>
+<br/>
+<br/>
+<apex:commandLink value="View as PDF" action="/apex/closeDrawer?isPdf=true"/>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

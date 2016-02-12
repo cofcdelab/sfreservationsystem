@@ -1,0 +1,36 @@
+<apex:page renderAs="{!if($CurrentPage.parameters.isPdf == null, null, 'pdf')}" controller="ESMReportController" readOnly="true" id="myPage">
+<apex:form >
+<apex:pageBlock title="Event Sales Movement">
+<br/>
+
+<b>Event Dates</b><br/>
+From Date :   <apex:inputField label="fromDateEvent"  value="{!fromDateEvent.Date_Time__c}"   id="fromDateEvent"/>
+To Date:    <apex:inputField label="toDateEvent" value="{!toDateEvent.Date_Time__c}" id="toDateEvent"/><br/><br/>
+<b>Sales Date</b><br/>
+From Date :   <apex:inputField label="fromDateSales"  value="{!fromDateSales.Sale_Date__c}"   id="fromDateSales"/>
+To Date:   <apex:inputField label="toDateSales" value="{!toDateSales.Sale_Date__c}" id="toDateSales"/><br/><br/>
+<apex:commandButton value="List Records" action="{!fetchReports}" rerender="pbTable"/><br/><br/>
+
+<apex:pageblocktable value="{!report}" var="a" id="pbTable">
+<apex:column headerValue="Day" value="{!a.Day}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Time" value="{!a.Times}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Date" value="{!a.eventDate }" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Venue" value="{!a.Venue}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Show" value="{!a.Show}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Capacity" value="{!a.Capacity}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Sold" value="{!a.Sold}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Comp" value="{!a.Comp}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Issued" value="{!a.Issued}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Percent" value="{!a.Percent}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Value" value="{!a.Value}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Event Sales Movement" value="{!a.Esm}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Value" value="{!a.Esm_Value}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Lock" value="{!a.Lock}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Available" value="{!a.Available}" style="{!if(a.Day='Report Totals','font-weight: bold', 'color:black')}"/>
+
+</apex:pageblocktable>
+<apex:commandLink value="View as PDF" action="/apex/EMSReport?isPdf=true"/>
+</apex:pageBlock>
+
+</apex:form>
+</apex:page>

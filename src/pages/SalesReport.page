@@ -1,0 +1,49 @@
+<apex:page renderAs="{!if($CurrentPage.parameters.isPdf == null, null, 'pdf')}" controller="SalesReportController" readOnly="true" id="myPage">
+<apex:form >
+
+<apex:pageBlock title="Sales Report">
+<br/>
+
+<b>Event Dates</b><br/>
+From Date :   <apex:inputField label="fromDateEvent"  value="{!fromDateEvent.Date_Time__c}"   id="fromDateEvent"/>
+To Date:    <apex:inputField label="toDateEvent" value="{!toDateEvent.Date_Time__c}" id="toDateEvent"/><br/><br/>
+
+<b>Event: </b> <apex:inputField label="activity"  value="{!activity.Activity__c}"   id="activity"/><br/>
+
+<apex:commandButton value="List Records" action="{!fetchReports}" rerender="pbTable,pbTable2,pbTable3,pbTable4,pbTable5"/><br/><br/>
+
+<style> .headerRow .headerStyle{background-color:#638658;color:#FFFFFF} </style>
+<apex:pageblocktable value="{!outer_report}" columnsWidth="100px" var="a" id="pbTable2">
+
+<apex:column headerValue="" headerClass="headerStyle" value="{!a.Type}" style="{!if(a.Type='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="# of Seats" value="{!a.Seats}" style="{!if(a.Type='Total','color:white;font-weight: bold', 'color:white')}"/>
+<apex:column headerValue="Percent" value="{!a.Percent}"/>
+<apex:column headerValue="Tickets Value" value="{!a.Value}" style="{!if(a.Type='Total','font-weight: bold', 'color:black')}"/>
+</apex:pageblocktable>
+
+<br/>
+<br/>
+<apex:pageblocktable value="{!pricetype_report}" columnsWidth="100px" var="c" id="pbTable4">
+
+<apex:column headerValue="Price Type" headerClass="headerStyle" value="{!c.PriceType}" style="{!if(c.PriceType='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Ticket Price" value="{!c.TicketPrice}" style="{!if(c.PriceType='Total','color:white;font-weight: bold', 'color:white')}"/>
+<apex:column headerValue="Ticket Sold" value="{!c.TicketSold}" style="{!if(c.PriceType='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Tickets Value" value="{!c.TicketValue}" style="{!if(c.PriceType='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Total Sold" value="{!c.TotalSold}" style="{!if(c.PriceType='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Total Value" value="{!c.TotalValue}" style="{!if(c.PriceType='Total','font-weight: bold', 'color:black')}"/>
+</apex:pageblocktable>
+<br/>
+<br/>
+<apex:pageblocktable value="{!payment_report}" columnsWidth="1000px" var="d" id="pbTable5">
+
+<apex:column headerValue="Payment Methods" headerClass="headerStyle" value="{!d.PaymentMethod}" style="{!if(d.PaymentMethod='Total','font-weight: bold', 'color:black')}"/>
+<apex:column headerValue="Net Total Sale" value="{!d.TotalSale}" style="{!if(d.PaymentMethod='Total','font-weight: bold', 'color:black')}"/>
+
+</apex:pageblocktable>
+
+
+
+<apex:commandLink value="View as PDF" action="/apex/SalesReport?isPdf=true"/>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

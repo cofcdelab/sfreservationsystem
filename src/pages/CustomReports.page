@@ -1,0 +1,13 @@
+<apex:page >
+ <br/>
+ 
+  <h1>Choose from the following Custom Reports</h1>
+  <br/>
+ <br/>
+ <apex:outputLink value="{! $Page.SingleTicketAudit}">Single Ticket Audit Report</apex:outputLink><br/>
+<apex:outputLink value="{! $Page.SalesReport}">Show Sales Report</apex:outputLink><br/>
+<apex:outputLink value="{! $Page.EMSReport}">Event Sales Movement Report</apex:outputLink><br/>
+<apex:outputLink value="{! $Page.closeDrawer}">Close Drawer</apex:outputLink><br/>
+
+
+</apex:page>
