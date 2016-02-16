@@ -1,7 +1,7 @@
 trigger EnforceCapacity on Ticket__c (before insert, before update) {
     //for each ticket being inserted or updated
     for(Ticket__c t : Trigger.new){
-        list<Event__c> e = [select name from Event__c where id = :t.events__c];
+        list<Activity__c> e = [select name from Activity__c where id = :t.Activity__c];
 
         integer cap = Capacity.checkCapacity(e[0], t.date_time__C);
 		
