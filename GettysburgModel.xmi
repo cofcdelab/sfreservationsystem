@@ -7036,7 +7036,7 @@
 			</ownedMember>
 			<ownedMember isAbstract="false" isDerived="false" isLeaf="false" xmi:id="yN5qh8qGAqAADQfC" xmi:type="uml:Association">
 				<memberEnd xmi:idref="yN5qh8qGAqAADQfD"/>
-				<ownedEnd aggregation="none" association="yN5qh8qGAqAADQfC" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="0..*" type="JPWyh8qGAqAADQc_" xmi:id="yN5qh8qGAqAADQfD" xmi:type="uml:Property">
+				<ownedEnd aggregation="none" association="yN5qh8qGAqAADQfC" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="1" type="JPWyh8qGAqAADQc_" xmi:id="yN5qh8qGAqAADQfD" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<associationEnd/>
 						<qualifier name="" xmi:id="yN5qh8qGAqAADQfE" xmi:type="qualifier">
@@ -7048,7 +7048,7 @@
 					</xmi:Extension>
 				</ownedEnd>
 				<memberEnd xmi:idref="yN5qh8qGAqAADQfF"/>
-				<ownedEnd aggregation="none" association="yN5qh8qGAqAADQfC" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="1" type="xjfkh8qGAqAADQaG" xmi:id="yN5qh8qGAqAADQfF" xmi:type="uml:Property">
+				<ownedEnd aggregation="none" association="yN5qh8qGAqAADQfC" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="0..*" type="xjfkh8qGAqAADQaG" xmi:id="yN5qh8qGAqAADQfF" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<associationEnd/>
 						<qualifier name="" xmi:id="yN5qh8qGAqAADQfG" xmi:type="qualifier">
@@ -7193,7 +7193,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Activity ID" type="EDKxZ8qAUBWccAbA" visibility="public" xmi:id="2Tlwh8qGAqAADQR8" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Activity ID" type="3YQp2SqAUBWccAbW" visibility="public" xmi:id="2Tlwh8qGAqAADQR8" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7259,7 +7259,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External_ActivitySchedule ID" type="cDKxZ8qAUBWccAbB" visibility="public" xmi:id="s9MYh8qGAqAADQW9" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External_ActivitySchedule ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id="s9MYh8qGAqAADQW9" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7366,7 +7366,7 @@
 					<businessModel xmi:value="false"/>
 					<qualityScore value="-1"/>
 				</xmi:Extension>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Price Type ID" type="cDKxZ8qAUBWccAbB" visibility="public" xmi:id="p1Ckh8qGAqAADQZM" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Price Type ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id="p1Ckh8qGAqAADQZM" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7416,7 +7416,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Ticket ID" type="cDKxZ8qAUBWccAbB" visibility="public" xmi:id="PGxih8qGAqAADQaf" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Ticket ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id="PGxih8qGAqAADQaf" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7564,7 +7564,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Payment ID" type="cDKxZ8qAUBWccAbB" visibility="public" xmi:id=".z6Kh8qGAqAADQd3" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Payment ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id=".z6Kh8qGAqAADQd3" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7700,7 +7700,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External ID" type="FDKxZ8qAUBWccAbC" visibility="private" xmi:id="vNFah8qGAqAADQgR" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External ID" type="u4Qp2SqAUBWccAbY" visibility="private" xmi:id="vNFah8qGAqAADQgR" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7767,7 +7767,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External User ID" type="FDKxZ8qAUBWccAbC" visibility="public" xmi:id="fJKGh8qGAqAADQiz" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External User ID" type="u4Qp2SqAUBWccAbY" visibility="public" xmi:id="fJKGh8qGAqAADQiz" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7783,7 +7783,7 @@
 			</xmi:Extension>
 		</ownedMember>
 		<ownedMember name="Email" visibility="public" xmi:id="Email_id" xmi:type="uml:DataType"/>
-		<ownedMember name="Number(18,0)(External ID)" visibility="public" xmi:id="FDKxZ8qAUBWccAbC" xmi:type="uml:DataType"/>
+		<ownedMember name="Number(18,0)(External ID)" visibility="public" xmi:id="u4Qp2SqAUBWccAbY" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(PriceType)" visibility="public" xmi:id="Lookup(PriceType)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(Contact)" visibility="public" xmi:id="Lookup(Contact)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Picklist" visibility="public" xmi:id="Picklist_id" xmi:type="uml:DataType"/>
@@ -7793,7 +7793,7 @@
 		<ownedMember name="MasterDetail(Contact)" visibility="public" xmi:id="MasterDetail(Contact)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="MasterDetail(Activity)" visibility="public" xmi:id="MasterDetail(Activity)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Number(18,0)" visibility="public" xmi:id="Number(18,0)_id" xmi:type="uml:DataType"/>
-		<ownedMember name="Number(18,0)(Unique)(External ID)" visibility="public" xmi:id="cDKxZ8qAUBWccAbB" xmi:type="uml:DataType"/>
+		<ownedMember name="Number(18,0)(Unique)(External ID)" visibility="public" xmi:id="g4Qp2SqAUBWccAbX" xmi:type="uml:DataType"/>
 		<ownedMember name="Checkbox" visibility="public" xmi:id="Checkbox_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Phone" visibility="public" xmi:id="Phone_id" xmi:type="uml:DataType"/>
 		<ownedMember name="checkbox" visibility="public" xmi:id="checkbox_id" xmi:type="uml:DataType"/>
@@ -7810,7 +7810,7 @@
 		<ownedMember name="text(80)" visibility="public" xmi:id="text(80)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Date" visibility="public" xmi:id="Date_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(User)" visibility="public" xmi:id="Lookup(User)_id" xmi:type="uml:DataType"/>
-		<ownedMember name="Number(18,0) (External ID)" visibility="public" xmi:id="EDKxZ8qAUBWccAbA" xmi:type="uml:DataType"/>
+		<ownedMember name="Number(18,0) (External ID)" visibility="public" xmi:id="3YQp2SqAUBWccAbW" xmi:type="uml:DataType"/>
 		<ownedMember name="MasterDetail(PriceType)" visibility="public" xmi:id="MasterDetail(PriceType)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Text(10)" visibility="public" xmi:id="Text(10)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(Membership)" visibility="public" xmi:id="Lookup(Membership)_id" xmi:type="uml:DataType"/>
@@ -7824,7 +7824,7 @@
 				<ashowAllocatedTo value="true"/>
 				<apmAuthor value="rlile554"/>
 				<apmCreateDateTime value="1459519957626"/>
-				<apmLastModified value="1459861853620"/>
+				<apmLastModified value="1462899050067"/>
 				<ateamworkCreateDateTime value="0"/>
 				<ashowPackageNameStyle value="0"/>
 				<ashowConnectorName value="0"/>
@@ -8263,8 +8263,8 @@
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
 					<captionSide value="1"/>
-					<roleA roleName="701,623,40,40"/>
-					<roleB roleName="751,485,40,40"/>
+					<roleA roleName="707,636,27,14"/>
+					<roleB roleName="751,498,40,14"/>
 					<properties>
 						<azOrder value="12"/>
 						<abackground value="Cr:122,207,245,255"/>
@@ -8293,8 +8293,8 @@
 						<ahasRoleAShape value="true"/>
 						<ahasRoleBShape value="true"/>
 						<ashowMultiplicityConstraints value="false"/>
-						<aroleARectangle value="Re:701.0,623.0,40.0,40.0"/>
-						<aroleBRectangle value="Re:751.0,485.0,40.0,40.0"/>
+						<aroleARectangle value="Re:707.0,636.0,27.0,14.0"/>
+						<aroleBRectangle value="Re:751.0,498.0,40.0,14.0"/>
 						<ahasMultiplicityAShape value="false"/>
 						<ahasMultiplicityBShape value="false"/>
 						<ashowOrderedMultiplicityConstraint value="true"/>
@@ -8850,7 +8850,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="51"/>
+						<azOrder value="50"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -8925,7 +8925,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="53"/>
+						<azOrder value="52"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9000,7 +9000,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="55"/>
+						<azOrder value="54"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9075,7 +9075,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="57"/>
+						<azOrder value="56"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9150,7 +9150,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="59"/>
+						<azOrder value="58"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
