@@ -6918,35 +6918,6 @@
 					<qualityScore value="-1"/>
 				</xmi:Extension>
 			</ownedMember>
-			<ownedMember isAbstract="false" isDerived="false" isLeaf="false" xmi:id="DJLSh8qGAqAADQbU" xmi:type="uml:Association">
-				<memberEnd xmi:idref="DJLSh8qGAqAADQbV"/>
-				<ownedEnd aggregation="none" association="DJLSh8qGAqAADQbU" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="0..*" type="xjfkh8qGAqAADQaG" xmi:id="DJLSh8qGAqAADQbV" xmi:type="uml:Property">
-					<xmi:Extension extender="Visual Paradigm">
-						<associationEnd/>
-						<qualifier name="" xmi:id="DJLSh8qGAqAADQbW" xmi:type="qualifier">
-							<xmi:Extension extender="Visual Paradigm">
-								<qualityScore value="-1"/>
-							</xmi:Extension>
-						</qualifier>
-						<qualityScore value="-1"/>
-					</xmi:Extension>
-				</ownedEnd>
-				<memberEnd xmi:idref="DJLSh8qGAqAADQbX"/>
-				<ownedEnd aggregation="none" association="DJLSh8qGAqAADQbU" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="1" type="JFnUS8qAUBWccAe3" xmi:id="DJLSh8qGAqAADQbX" xmi:type="uml:Property">
-					<xmi:Extension extender="Visual Paradigm">
-						<associationEnd/>
-						<qualifier name="" xmi:id="DJLSh8qGAqAADQbY" xmi:type="qualifier">
-							<xmi:Extension extender="Visual Paradigm">
-								<qualityScore value="-1"/>
-							</xmi:Extension>
-						</qualifier>
-						<qualityScore value="-1"/>
-					</xmi:Extension>
-				</ownedEnd>
-				<xmi:Extension extender="Visual Paradigm">
-					<qualityScore value="-1"/>
-				</xmi:Extension>
-			</ownedMember>
 			<ownedMember isAbstract="false" isDerived="false" isLeaf="false" xmi:id="DiHSh8qGAqAADQbg" xmi:type="uml:Association">
 				<memberEnd xmi:idref="DiHSh8qGAqAADQbh"/>
 				<ownedEnd aggregation="none" association="DiHSh8qGAqAADQbg" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="0..*" type="xjfkh8qGAqAADQaG" xmi:id="DiHSh8qGAqAADQbh" xmi:type="uml:Property">
@@ -7023,6 +6994,35 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<associationEnd/>
 						<qualifier name="" xmi:id="V4x6h8qGAqAADQhp" xmi:type="qualifier">
+							<xmi:Extension extender="Visual Paradigm">
+								<qualityScore value="-1"/>
+							</xmi:Extension>
+						</qualifier>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedEnd>
+				<xmi:Extension extender="Visual Paradigm">
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+			</ownedMember>
+			<ownedMember isAbstract="false" isDerived="false" isLeaf="false" xmi:id="Yor._SqAUBWccA5O" xmi:type="uml:Association">
+				<memberEnd xmi:idref="Yor._SqAUBWccA5P"/>
+				<ownedEnd aggregation="none" association="Yor._SqAUBWccA5O" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="0..*" type="xjfkh8qGAqAADQaG" xmi:id="Yor._SqAUBWccA5P" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<associationEnd/>
+						<qualifier name="" xmi:id="4or._SqAUBWccA5Q" xmi:type="qualifier">
+							<xmi:Extension extender="Visual Paradigm">
+								<qualityScore value="-1"/>
+							</xmi:Extension>
+						</qualifier>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedEnd>
+				<memberEnd xmi:idref="4or._SqAUBWccA5R"/>
+				<ownedEnd aggregation="none" association="Yor._SqAUBWccA5O" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="1" type="TNWIh8qGAqAADQTa" xmi:id="4or._SqAUBWccA5R" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<associationEnd/>
+						<qualifier name="" xmi:id="4or._SqAUBWccA5S" xmi:type="qualifier">
 							<xmi:Extension extender="Visual Paradigm">
 								<qualityScore value="-1"/>
 							</xmi:Extension>
@@ -7193,7 +7193,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Activity ID" type="3YQp2SqAUBWccAbW" visibility="public" xmi:id="2Tlwh8qGAqAADQR8" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Activity ID" type="pPQB_SqAUBWccA6_" visibility="public" xmi:id="2Tlwh8qGAqAADQR8" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7259,7 +7259,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External_ActivitySchedule ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id="s9MYh8qGAqAADQW9" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External_ActivitySchedule ID" type="NPQB_SqAUBWccA7A" visibility="public" xmi:id="s9MYh8qGAqAADQW9" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7366,7 +7366,7 @@
 					<businessModel xmi:value="false"/>
 					<qualityScore value="-1"/>
 				</xmi:Extension>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Price Type ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id="p1Ckh8qGAqAADQZM" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Price Type ID" type="NPQB_SqAUBWccA7A" visibility="public" xmi:id="p1Ckh8qGAqAADQZM" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7395,7 +7395,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isOrdered="false" isReadOnly="false" isStatic="false" isUnique="false" name="Activity" type="MasterDetail(Activity)_id" visibility="public" xmi:id="M33Ch8qGAqAADQaO" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isOrdered="false" isReadOnly="false" isStatic="false" isUnique="false" name="Activity Schedule" type="rPQB_SqAUBWccA7B" visibility="public" xmi:id="M33Ch8qGAqAADQaO" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7416,7 +7416,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Ticket ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id="PGxih8qGAqAADQaf" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Ticket ID" type="NPQB_SqAUBWccA7A" visibility="public" xmi:id="PGxih8qGAqAADQaf" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7564,7 +7564,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Payment ID" type="g4Qp2SqAUBWccAbX" visibility="public" xmi:id=".z6Kh8qGAqAADQd3" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External Payment ID" type="NPQB_SqAUBWccA7A" visibility="public" xmi:id=".z6Kh8qGAqAADQd3" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7700,7 +7700,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External ID" type="u4Qp2SqAUBWccAbY" visibility="private" xmi:id="vNFah8qGAqAADQgR" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External ID" type="ivQB_SqAUBWccA7C" visibility="private" xmi:id="vNFah8qGAqAADQgR" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7767,7 +7767,7 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
-				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External User ID" type="u4Qp2SqAUBWccAbY" visibility="public" xmi:id="fJKGh8qGAqAADQiz" xmi:type="uml:Property">
+				<ownedAttribute aggregation="none" isDerived="false" isDerivedUnion="false" isID="false" isLeaf="false" isReadOnly="false" isStatic="false" name="External User ID" type="ivQB_SqAUBWccA7C" visibility="public" xmi:id="fJKGh8qGAqAADQiz" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
@@ -7782,8 +7782,9 @@
 				<qualityScore value="-1"/>
 			</xmi:Extension>
 		</ownedMember>
+		<ownedMember name="MasterDetail(Activity Schedule)" visibility="public" xmi:id="rPQB_SqAUBWccA7B" xmi:type="uml:DataType"/>
 		<ownedMember name="Email" visibility="public" xmi:id="Email_id" xmi:type="uml:DataType"/>
-		<ownedMember name="Number(18,0)(External ID)" visibility="public" xmi:id="u4Qp2SqAUBWccAbY" xmi:type="uml:DataType"/>
+		<ownedMember name="Number(18,0)(External ID)" visibility="public" xmi:id="ivQB_SqAUBWccA7C" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(PriceType)" visibility="public" xmi:id="Lookup(PriceType)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(Contact)" visibility="public" xmi:id="Lookup(Contact)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Picklist" visibility="public" xmi:id="Picklist_id" xmi:type="uml:DataType"/>
@@ -7793,7 +7794,7 @@
 		<ownedMember name="MasterDetail(Contact)" visibility="public" xmi:id="MasterDetail(Contact)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="MasterDetail(Activity)" visibility="public" xmi:id="MasterDetail(Activity)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Number(18,0)" visibility="public" xmi:id="Number(18,0)_id" xmi:type="uml:DataType"/>
-		<ownedMember name="Number(18,0)(Unique)(External ID)" visibility="public" xmi:id="g4Qp2SqAUBWccAbX" xmi:type="uml:DataType"/>
+		<ownedMember name="Number(18,0)(Unique)(External ID)" visibility="public" xmi:id="NPQB_SqAUBWccA7A" xmi:type="uml:DataType"/>
 		<ownedMember name="Checkbox" visibility="public" xmi:id="Checkbox_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Phone" visibility="public" xmi:id="Phone_id" xmi:type="uml:DataType"/>
 		<ownedMember name="checkbox" visibility="public" xmi:id="checkbox_id" xmi:type="uml:DataType"/>
@@ -7810,7 +7811,7 @@
 		<ownedMember name="text(80)" visibility="public" xmi:id="text(80)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Date" visibility="public" xmi:id="Date_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(User)" visibility="public" xmi:id="Lookup(User)_id" xmi:type="uml:DataType"/>
-		<ownedMember name="Number(18,0) (External ID)" visibility="public" xmi:id="3YQp2SqAUBWccAbW" xmi:type="uml:DataType"/>
+		<ownedMember name="Number(18,0) (External ID)" visibility="public" xmi:id="pPQB_SqAUBWccA6_" xmi:type="uml:DataType"/>
 		<ownedMember name="MasterDetail(PriceType)" visibility="public" xmi:id="MasterDetail(PriceType)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Text(10)" visibility="public" xmi:id="Text(10)_id" xmi:type="uml:DataType"/>
 		<ownedMember name="Lookup(Membership)" visibility="public" xmi:id="Lookup(Membership)_id" xmi:type="uml:DataType"/>
@@ -7824,7 +7825,7 @@
 				<ashowAllocatedTo value="true"/>
 				<apmAuthor value="rlile554"/>
 				<apmCreateDateTime value="1459519957626"/>
-				<apmLastModified value="1462899050067"/>
+				<apmLastModified value="1463501724720"/>
 				<ateamworkCreateDateTime value="0"/>
 				<ashowPackageNameStyle value="0"/>
 				<ashowConnectorName value="0"/>
@@ -8110,88 +8111,15 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="939,232;939,58;1142,58;" preferredShapeType="Association" subject="DJLSh8qGAqAADQbU" toDiagramElement="iFnUS8qAUBWccAe2" xmi:id="PJLSh8qGAqAADQbZ">
+			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="903,525;903,604;" preferredShapeType="Association" subject="DiHSh8qGAqAADQbg" toDiagramElement="PPokh8qGAqAADQYu" xmi:id="riHSh8qGAqAADQbl">
 				<xmi:Extension extender="Visual Paradigm">
-					<captionBounds value="943,58,20,0"/>
+					<captionBounds value="893,578,20,0"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
 					<captionSide value="1"/>
-					<roleA roleName="940,199,40,40"/>
-					<roleB roleName="1105,24,40,40"/>
-					<properties>
-						<azOrder value="8"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="ClassDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<arequestResetCaptionFitWidth value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="true"/>
-						<ahasRoleBShape value="true"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<aroleARectangle value="Re:940.0,199.0,40.0,40.0"/>
-						<aroleBRectangle value="Re:1105.0,24.0,40.0,40.0"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="915,494;915,604;" preferredShapeType="Association" subject="DiHSh8qGAqAADQbg" toDiagramElement="PPokh8qGAqAADQYu" xmi:id="riHSh8qGAqAADQbl">
-				<xmi:Extension extender="Visual Paradigm">
-					<captionBounds value="905,549,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<roleA roleName="869,485,40,40"/>
-					<roleB roleName="908,573,40,40"/>
+					<roleA roleName="856,516,40,40"/>
+					<roleB roleName="896,573,40,40"/>
 					<properties>
 						<azOrder value="10"/>
 						<abackground value="Cr:122,207,245,255"/>
@@ -8220,8 +8148,8 @@
 						<ahasRoleAShape value="true"/>
 						<ahasRoleBShape value="true"/>
 						<ashowMultiplicityConstraints value="false"/>
-						<aroleARectangle value="Re:869.0,485.0,40.0,40.0"/>
-						<aroleBRectangle value="Re:908.0,573.0,40.0,40.0"/>
+						<aroleARectangle value="Re:856.0,516.0,40.0,40.0"/>
+						<aroleBRectangle value="Re:896.0,573.0,40.0,40.0"/>
 						<ahasMultiplicityAShape value="false"/>
 						<ahasMultiplicityBShape value="false"/>
 						<ashowOrderedMultiplicityConstraint value="true"/>
@@ -8256,15 +8184,15 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="xPWyh8qGAqAADQc." geometry="697,637;787,637;787,494;" preferredShapeType="Association" subject="yN5qh8qGAqAADQfC" toDiagramElement="xjfkh8qGAqAADQaF" xmi:id="uN5qh8qGAqAADQfH">
+			<uml:DiagramElement fromDiagramElement="xPWyh8qGAqAADQc." geometry="697,637;787,637;787,525;" preferredShapeType="Association" subject="yN5qh8qGAqAADQfC" toDiagramElement="xjfkh8qGAqAADQaF" xmi:id="uN5qh8qGAqAADQfH">
 				<xmi:Extension extender="Visual Paradigm">
 					<captionBounds value="708,649,20,0"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
 					<captionSide value="1"/>
-					<roleA roleName="707,636,27,14"/>
-					<roleB roleName="751,498,40,14"/>
+					<roleA roleName="706,636,27,14"/>
+					<roleB roleName="751,529,40,14"/>
 					<properties>
 						<azOrder value="12"/>
 						<abackground value="Cr:122,207,245,255"/>
@@ -8293,8 +8221,8 @@
 						<ahasRoleAShape value="true"/>
 						<ahasRoleBShape value="true"/>
 						<ashowMultiplicityConstraints value="false"/>
-						<aroleARectangle value="Re:707.0,636.0,27.0,14.0"/>
-						<aroleBRectangle value="Re:751.0,498.0,40.0,14.0"/>
+						<aroleARectangle value="Re:706.0,636.0,27.0,14.0"/>
+						<aroleBRectangle value="Re:751.0,529.0,40.0,14.0"/>
 						<ahasMultiplicityAShape value="false"/>
 						<ahasMultiplicityBShape value="false"/>
 						<ashowOrderedMultiplicityConstraint value="true"/>
@@ -8475,14 +8403,14 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="762,323;649,323;" preferredShapeType="Association" subject="Wbrah8qGAqAADQgm" toDiagramElement="Cs7qh8qGAqAADQfz" xmi:id="Bbrah8qGAqAADQgr">
+			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="750,323;649,323;" preferredShapeType="Association" subject="Wbrah8qGAqAADQgm" toDiagramElement="Cs7qh8qGAqAADQfz" xmi:id="Bbrah8qGAqAADQgr">
 				<xmi:Extension extender="Visual Paradigm">
 					<captionBounds value="711,323,20,0"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
 					<captionSide value="1"/>
-					<roleA roleName="728,308,40,14"/>
+					<roleA roleName="716,308,40,14"/>
 					<roleB roleName="639,310,40,40"/>
 					<properties>
 						<azOrder value="18"/>
@@ -8512,7 +8440,7 @@
 						<ahasRoleAShape value="true"/>
 						<ahasRoleBShape value="true"/>
 						<ashowMultiplicityConstraints value="false"/>
-						<aroleARectangle value="Re:728.0,308.0,40.0,14.0"/>
+						<aroleARectangle value="Re:716.0,308.0,40.0,14.0"/>
 						<aroleBRectangle value="Re:639.0,310.0,40.0,40.0"/>
 						<ahasMultiplicityAShape value="false"/>
 						<ahasMultiplicityBShape value="false"/>
@@ -8548,15 +8476,15 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="762,450;649,450;" preferredShapeType="Association" subject="l4x6h8qGAqAADQhl" toDiagramElement="r_06h8qGAqAADQhV" xmi:id="z4x6h8qGAqAADQhq">
+			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="750,427;649,427;" preferredShapeType="Association" subject="l4x6h8qGAqAADQhl" toDiagramElement="r_06h8qGAqAADQhV" xmi:id="z4x6h8qGAqAADQhq">
 				<xmi:Extension extender="Visual Paradigm">
-					<captionBounds value="674,450,20,0"/>
+					<captionBounds value="673,427,20,0"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
 					<captionSide value="1"/>
-					<roleA roleName="731,422,40,40"/>
-					<roleB roleName="647,437,40,40"/>
+					<roleA roleName="719,399,40,40"/>
+					<roleB roleName="647,414,40,40"/>
 					<properties>
 						<azOrder value="20"/>
 						<abackground value="Cr:122,207,245,255"/>
@@ -8585,8 +8513,8 @@
 						<ahasRoleAShape value="true"/>
 						<ahasRoleBShape value="true"/>
 						<ashowMultiplicityConstraints value="false"/>
-						<aroleARectangle value="Re:731.0,422.0,40.0,40.0"/>
-						<aroleBRectangle value="Re:647.0,437.0,40.0,40.0"/>
+						<aroleARectangle value="Re:719.0,399.0,40.0,40.0"/>
+						<aroleBRectangle value="Re:647.0,414.0,40.0,40.0"/>
 						<ahasMultiplicityAShape value="false"/>
 						<ahasMultiplicityBShape value="false"/>
 						<ashowOrderedMultiplicityConstraint value="true"/>
@@ -8694,7 +8622,7 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement fromDiagramElement="vRV6h8qGAqAADQiJ" geometry="663,156;868,156;868,232;" preferredShapeType="Association" subject="MB4mh8qGAqAADQlF" toDiagramElement="xjfkh8qGAqAADQaF" xmi:id="iB4mh8qGAqAADQlK">
+			<uml:DiagramElement fromDiagramElement="vRV6h8qGAqAADQiJ" geometry="663,156;868,156;868,263;" preferredShapeType="Association" subject="MB4mh8qGAqAADQlF" toDiagramElement="xjfkh8qGAqAADQaF" xmi:id="iB4mh8qGAqAADQlK">
 				<xmi:Extension extender="Visual Paradigm">
 					<captionBounds value="749,156,20,0"/>
 					<captionInternalWidth value="-2147483648"/>
@@ -8702,7 +8630,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="1"/>
 					<roleA roleName="661,143,40,40"/>
-					<roleB roleName="869,201,40,40"/>
+					<roleB roleName="869,232,40,40"/>
 					<properties>
 						<azOrder value="24"/>
 						<abackground value="Cr:122,207,245,255"/>
@@ -8732,7 +8660,7 @@
 						<ahasRoleBShape value="true"/>
 						<ashowMultiplicityConstraints value="false"/>
 						<aroleARectangle value="Re:661.0,143.0,40.0,40.0"/>
-						<aroleBRectangle value="Re:869.0,201.0,40.0,40.0"/>
+						<aroleBRectangle value="Re:869.0,232.0,40.0,40.0"/>
 						<ahasMultiplicityAShape value="false"/>
 						<ahasMultiplicityBShape value="false"/>
 						<ashowOrderedMultiplicityConstraint value="true"/>
@@ -8850,7 +8778,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="50"/>
+						<azOrder value="51"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -8925,7 +8853,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="52"/>
+						<azOrder value="53"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9000,7 +8928,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="54"/>
+						<azOrder value="55"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9075,7 +9003,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="56"/>
+						<azOrder value="57"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9142,7 +9070,7 @@
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				<CompartmentFont value="none"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="763,233,305,260" preferredShapeType="Class" subject="xjfkh8qGAqAADQaG" xmi:id="xjfkh8qGAqAADQaF">
+			<uml:DiagramElement geometry="751,264,305,260" preferredShapeType="Class" subject="xjfkh8qGAqAADQaG" xmi:id="xjfkh8qGAqAADQaF">
 				<xmi:Extension extender="Visual Paradigm">
 					<captionBounds value="0,0,305,14"/>
 					<captionInternalWidth value="-2147483648"/>
@@ -9150,7 +9078,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="12"/>
 					<properties>
-						<azOrder value="58"/>
+						<azOrder value="59"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="ClassDiagram"/>
@@ -9516,6 +9444,79 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement fromDiagramElement="xjfkh8qGAqAADQaF" geometry="949,263;949,192;1098,192;" preferredShapeType="Association" subject="Yor._SqAUBWccA5O" toDiagramElement="jNWIh8qGAqAADQTZ" xmi:id="a4r._SqAUBWccA5T">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="978,192,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<roleA roleName="950,236,40,40"/>
+					<roleB roleName="1065,164,40,40"/>
+					<properties>
+						<azOrder value="-1"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="true"/>
+						<ahasRoleBShape value="true"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<aroleARectangle value="Re:950.0,236.0,40.0,40.0"/>
+						<aroleBRectangle value="Re:1065.0,164.0,40.0,40.0"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
 		</uml:Diagram.element>
 	</uml:Diagram>
